@@ -2,12 +2,24 @@ body{
     font-family: 'Courier New', Courier, monospace;
     background-color: #f1f5f8;
 }
+.white{
+    color:white;
+}
 .nav-centre{
     display: block;
     background-color: #00ffff;
     padding: 20px;
     margin:-10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nav-centre>h4{
+    background-color: black;
+    width:7em;
+    text-align: center;
+    border:2px solid black;
+    border-radius: 12px;
+    color:#00ffff;
+    font-size:2em;
 }
 .container{
 
@@ -17,16 +29,18 @@ body{
     row-gap: 20px;
     justify-content: center;
     align-items: center;
-    width:750px;
-    height:450px;
+    width:700px;
+    height:500px;
     background-image:url('./color_swatch.svg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:contain;
 }
 .container>h2{
     color:black;
     text-align: center;
-    padding: 5px 10px 5px 10px;
+    position:relative;
+    top:-50px;
+    font-size: 2em;
 }
 h2>.color-value:hover{
     background-color: #413f42;
@@ -42,7 +56,7 @@ h2>.color-value:hover{
     text-align:center;
     position: relative; 
     left: 0px; 
-    top: -150px; 
+    top: -180px; 
     font-size: 23px;
 }
 .btn:hover{
@@ -54,16 +68,27 @@ h2>.color-value:hover{
 @media only screen and (max-width:720px){
     .nav-centre{
         width:100%;
-        font-size: 32px;
+        height:3em;
+    }
+    .nav-centre>h4{
+        font-size: 1.5em;
+        margin-top:-0.2em;
     }
     .container{
-        
+        width:500px;
+        height: 400px;
+        background-size: contain;
     }
     .container>h2{
-        font-size: 32px;
+        top:0px;
+        font-size:1.2em;
+        margin-top: -4em;
     }
     .btn{
-        width:100%;
+        width:80%;
         font-size: 20px;
+        margin-top: -3em;
+        margin-left:12.5%;
+        top: -150px; 
     }
 }
