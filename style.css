@@ -1,15 +1,18 @@
 body{
     font-family: 'Courier New', Courier, monospace;
     background-color: #f1f5f8;
+    margin: 0px;
 }
 .white{
     color:white;
 }
 .nav-centre{
     display: block;
+    width: 100%;
     background-color: #00ffff;
-    padding: 20px;
-    margin:-10px;
+    margin-right: 0px;
+    padding-top: 1em;
+    padding-left: 1em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .nav-centre>h4{
@@ -20,6 +23,7 @@ body{
     border-radius: 12px;
     color:#00ffff;
     font-size:2em;
+    margin-top: 1em;
 }
 .container{
 
@@ -66,21 +70,24 @@ h2>.color-value:hover{
 }
 /*Media Queries for Responsive Nature*/
 @media only screen and (max-width:720px){
+    body{
+        overflow: hidden;
+    }
     .nav-centre{
         width:100%;
         height:3em;
     }
     .nav-centre>h4{
         font-size: 1.5em;
-        margin-top:-0.2em;
+        margin-top:0em;
     }
     .container{
-        width:500px;
+        width:450px;
         height: 400px;
         background-size: contain;
     }
     .container>h2{
-        top:0px;
+        top:-10px;
         font-size:1.2em;
         margin-top: -4em;
     }
@@ -89,6 +96,6 @@ h2>.color-value:hover{
         font-size: 20px;
         margin-top: -3em;
         margin-left:12.5%;
-        top: -150px; 
+        top: -180px; 
     }
 }
