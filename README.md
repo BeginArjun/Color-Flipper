@@ -5,8 +5,11 @@ A simple browser based web application that generates a random color on every cl
 * Provides the HEX Value of each generated color.
 * Responsive Web-Application
 ## Screenshots
-![image](https://user-images.githubusercontent.com/92989288/170666079-ea8ac3d6-32e6-47d7-b9e4-6772db0db92f.png)
-![image](https://user-images.githubusercontent.com/92989288/170666263-99e317e0-15d4-4245-9136-89e09c46b6fe.png)
-![image](https://user-images.githubusercontent.com/92989288/170666355-8deff601-4b87-4d7e-83a1-f56bd4ba6a21.png)
+![image](https://user-images.githubusercontent.com/92989288/176448728-d6846547-b0af-4d33-84b0-0466c4087ca8.png)
+
+![image](https://user-images.githubusercontent.com/92989288/176448798-95b7a118-059f-45cc-b96a-570e52e54468.png)
+
+![image](https://user-images.githubusercontent.com/92989288/176448925-3414dc19-ca51-4fc0-a93c-d60a903625f7.png)
+
 ## Demo
 [Color Flipper](https://color-flipper-web.netlify.app/)
